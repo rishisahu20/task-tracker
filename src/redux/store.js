@@ -30,6 +30,7 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
+//redux store configuration
 const store = configureStore({
   reducer: persistedReducer,
   middleware: getDefaultMiddleware({
