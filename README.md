@@ -1,4 +1,4 @@
-# A React Task Tracket Developed using hooks and redux toolkit
+# A React Task Tracker Developed using hooks and redux toolkit
 
 A Task can be in one of three stages i.e,
 
