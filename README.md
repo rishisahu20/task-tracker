@@ -8,7 +8,7 @@ A Task can be in one of three stages i.e,
 
 To move a task you can drag and drop the task
 
-Use Can Add, Edit, Remove the task.
+You can Add, Edit, Remove the task.
 
 ## Steps
 
