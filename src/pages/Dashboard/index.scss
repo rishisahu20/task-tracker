@@ -1,0 +1,39 @@
+.container {
+  padding: 40px;
+  height: 100vh;
+  background: #c7d1da;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .dashboard__title {
+      text-align: center;
+    }
+    .container__title {
+      font-size: 18px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .to__do__container {
+      background-color: rgba(33, 150, 243, 0.8);
+    }
+    .progress__container {
+      background-color: rgba(243, 224, 63, 0.8);
+    }
+    .done__container {
+      background-color: rgba(0, 150, 136, 0.8);
+    }
+    .box {
+      padding: 10px;
+      border-radius: 10px;
+      opacity: 0.6;
+      margin-right: 20px;
+      min-width: 30%;
+      transition: 0.4s ease-out;
+      height: fit-content;
+    }
+    .box:hover {
+      transform: translateY(20px);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.card__container {
+  width: auto;
+  min-height: 40px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: move;
+  cursor: grab;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  .close__icon {
+    position: absolute;
+    right: 10px;
+    z-index: 999;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+  }
+}
+.card__container:hover {
+  transform: translateY(3px);
+}

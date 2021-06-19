@@ -1,0 +1,15 @@
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .button__wrapper {
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: auto;
+    text-align: center;
+    max-width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
