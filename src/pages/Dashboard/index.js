@@ -45,6 +45,7 @@ const Dasboard = () => {
     return (
       <Card
         key={tasktype + '-' + index}
+        cardKey={tasktype + '-' + index}
         draggable={true}
         deleteTask={() => deleteTask(tasktype, index)}
         onDragStart={(e) => onDragStart(e, tasktype + '-' + index)}
